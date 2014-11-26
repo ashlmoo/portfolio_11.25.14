@@ -1,0 +1,428 @@
+/* Landing/Home page 9.12.14 ...as of 10/2/14 updated to be mostly one page website. see different sections for css updates*/
+header.font-color {
+	font-color: #e3e2e4;
+}
+.global_index {
+	background-image: url('images/image_sc_bridge.png');
+	background-repeat: no-repeat;      
+	background-size: 100%;
+	background-color: rgb(225,225,225);
+	background-border: 1px solid #000;
+	}
+div.landing_intro {
+	width: 100%;
+	height: 20%;
+	margin: 0 auto;
+	text-align: center;
+	position:relative;
+	top: 390px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 30px;
+	color: white;
+	text-shadow: 2px 2px grey;
+}
+.tagline {
+	font-family: 'Nunito', sans-serif;
+	font-size: 20px;
+	color: white;
+}
+#my_face {
+	padding-right: 7px;
+	margin-top: 0px;
+	visibility: hidden;
+}
+p {
+	font-family: 'Nunito', sans-serif;
+	font-size: 16px;
+	color: #000;
+}
+#menu_h3 {
+	font-family: 'Nunito', sans-serif;
+	margin-left: 5px;
+	margin-top: 3px;
+	color: #428bca;
+}
+#menu_h3 a {
+	text-decoration: none;
+}
+#menu_h3 a:hover {
+	text-decoration: underline;
+	color:#FF1493;
+}
+#links_container {
+	margin-top: -15px;
+}
+#menu_social {
+	width: 150px;
+	font-family: 'Nunito', sans-serif;
+	color: #428bca;
+	margin-left: 80px;
+	margin-top: -5px;
+}
+#menu_social ul li {
+	list-style-type: none;
+	display: inline;
+	padding-left: 20px;
+}
+#menu_buttons {
+	font-family: 'Nunito', sans-serif;
+	color: #428bca;
+	margin-left: 80px;
+	margin-top: -45px;
+	padding-top: 5px;
+	padding-right: 40px;
+}
+#menu_buttons ul li {
+	display: inline;
+	list-style-color: #428bca;
+	padding-left: 20px;
+	
+}
+div.social_media {
+	color: blue;
+}
+div.container ul li {
+	font-family: 'Nunito', sans-serif;
+	font-size: 18px;
+}
+a {
+	text-decoration: none;
+}
+div.container ul li a:hover {
+	color: #FF1493;
+}
+div.col-lg-12 {
+	margin-top: 60px;
+}
+
+p.header_tagline {
+	font-family: 'Dosis', sans-serif;
+	font-size: 8px;
+	color: white;
+	width: 20px;
+	float: left;
+}
+/* .index_section_1 & summary_section 10/6/14 */
+div.index_section_1 {
+	position: relative;
+	margin-top: 550px;
+	font-family: 'Dosis', sans-serif;
+	
+}
+div.summary_section {
+	margin-left: 250px;
+	margin-top: 160px;
+}
+div.summary_header {
+	text-align: right;
+	margin-top: 150px;
+}
+.summary_p {
+	text-align: right;
+	font-size: 12px;
+	color: #000;
+}
+/* .index_section_2 & skills graphic and summary 10/6/14 */
+div.index_section_2 {
+	width: 1100px;
+	height: 450px;
+	padding-left: 10px;
+}
+div.skills_blurb {
+	font-size: 16px;
+	color: #000;
+	margin-top: 50px;
+}
+div.skills {
+	width: 525px;
+	height: 198px;
+	margin-left: 630px;
+	margin-top: -30px;
+}
+/*#portfolio_intro {
+	margin-right: 150px;
+}*/
+.skills_header {
+	font-family: 'Dosis', sans-serif;
+	text-align: left;
+	padding-right: 5px;
+}
+p.languages_text {
+	color: #000;
+	font-size: 12px;
+	visibility: hidden;
+}
+p.fed_text {
+	margin-bottom: -2px;
+	font-size: 14px;
+}
+p.bed_text {
+	margin-bottom: -2px;
+	font-size: 14px;
+}
+p.design_text {
+	margin-bottom: -2px;
+	font-size: 14px;
+}
+/* .index_section_3 & work_section a.k.a portfolio circles 10/6/14 */
+#work_circle {
+	margin-left: 400px;
+	margin-top: 50px;
+	padding-top: 10px;
+	padding-left: 50px;
+	width: 400px;
+	height: 160px;
+}
+#sample_circle {
+	margin-left: 400px;
+	margin-top: 50px;
+	padding-top: 10px;
+	padding-left: 50px;
+	width: 400px;
+	height: 160px;
+}
+#work_image {
+	border: 1px solid #FFFFFF;
+}
+#work_image:hover {
+	border: 2px solid #FF1493;
+}
+div.work_discription {
+	font-family: 'Nunito', sans-serif;
+	text-align: left;
+	width: 200px;
+	margin-left: 150px;
+	margin-top: -110px;
+}
+div.sample_discription {
+	font-family: 'Nunito', sans-serif;
+	text-align: left;
+	width: 200px;
+	margin-left: 150px;
+	margin-top: -110px;
+}
+#campbell_quote {
+	position: relative;
+	margin: 0 auto;
+	float: left;
+	text-align: center;
+	margin-top: 350px;
+	margin-left: 250px;
+	margin-bottom: 40px;
+}
+/* .index_section_4 & about_section 10/6/14 */
+div.index_section_4 {
+	height: 50em;
+	margin-bottom: 35px;
+	margin-left: 40px;
+}
+#about_h3 {
+	color: #2a6496;
+}
+#about_h3 a {
+	color: #000;
+	text-decoration: none;
+}
+#about_h3 a:hover {
+	text-decoration: underline;
+	text-decoration-color: #FF1493;
+}
+#work_p {
+	margin-right: 5px;
+	color: #2a6496;
+}
+#sample_p {
+	margin-right: 5px;
+	color: #2a6496;
+}
+div.about_section {
+	width: 100%;
+	height: 500px;
+	margin: 0 auto;
+	position: relative;
+	bottom: 50px;
+	left: 25px;
+	padding-left: 20px;
+}
+div.about_content {
+	font-size: 12px;
+}
+#about_blurb {
+	font-family: 'Nunito', sans-serif;
+	font-size: 16px;
+	color: black;
+	text-shadow: none;
+	margin-right: 30px;
+}
+div.about_header {
+	font-family: 'Dosis', sans-serif;
+}
+#bunny_box {
+	width: 300px;
+	height: 250px;
+	margin: 0 auto;
+	margin-left: 100px;
+	float: left;
+}
+#bunny_content {
+	width: 500px;
+	height: 250px;
+	margin: 0 auto;
+	margin-right: -250px;
+	margin-top: 120px;
+	float: right;
+	font-family: 'Nunito', sans-serif;
+	font-size: 16px;
+	color: #000;
+}
+#my_face_2 {
+	margin-top: 20px;
+}
+#footer {
+	width: 1163px;
+	height: 150px;
+	position: relative;
+	float: center;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 150px;
+	margin-bottom: 150px;
+}
+/* Media Queries 11/17/14 */
+
+/** Mobile **/
+@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+	/*intro & summary section 11.21.14 */
+	header {
+		display: none;
+	}
+	div.index_section_1 {
+		width: 100%;
+		height: 100%;
+		margin: 0 auto;
+		padding-left: 10%;
+		padding-right: 10%;
+		padding-top: 50%;
+		float: center;
+	}
+	div.summary_section {
+		width: 100%;
+		height: 80%;
+		margin: 0 auto;
+		margin-top: 60%;
+		float: right;
+	}
+	/*skills section 11.21.14 */
+	div.index_section_2 {
+		width: 80%;
+		height: 40%;
+		margin: 0 auto;
+		float: center;
+	}
+	div.skills {
+		width: 100%;
+		height: 100%;
+		margin: 0 auto;
+		float: left;
+	}
+	/*work section 11.21.14 */
+	div.index_section_3 {
+		width: 80%;
+		height: 40%;
+		margin: 0 auto;
+		float: center;
+	}
+	#portfolio_circles {
+		width: 100%;
+		height: 100%;
+		margin: 0 auto;
+		margin-top: 20%;
+		float: right;
+	}
+	#bunny_box {
+		width: 100%;
+		height: 100%;
+		margin: 0 auto;
+		margin-right: 40%;
+		float: left;
+	}
+	form {
+		text-align: left;
+	}
+	#bunny_content {
+		width: 100%;
+		height: 100%;
+		margin: 0 auto;
+		margin-top: 20%;
+		margin-bottom: 80%;
+	}
+	/*about section 11.21.14 */
+	div.index_section_4 {
+		width: 100%;
+		height: 40%;
+		margin: 0 auto;
+		margin-top: 10%;
+		margin-bottom: 40%;
+		float: center;
+	}
+	#my_face_2 {
+			display: none;
+		}
+}
+
+/** Tablet **/
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+	#my_face_2 {
+			display: none;
+		}	
+	div.index_section_5 {
+		width: 100%;
+		height: 100%;
+		margin: 0 auto;
+		float: left;
+	}
+	#social_media_circles {
+		display: none;
+	}	
+	#footer {
+		width: 20%;
+		height: 20%;
+		margin: 0 auto;
+		position: inherit;
+	}
+	#facebook {
+		width: 100%;
+		height: 100%;
+		margin: 0 auto;
+		margin-top: 10%;
+	}
+	#twitter {
+		width: 100%;
+		height: 100%;
+		margin: 0 auto;
+	}
+	#linkedin {
+		width: 100%;
+		height: 100%;
+		margin: 0 auto;
+	}
+}
+
+/** Tablet (landscape) **/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+	#my_face_2 {
+			display: none;
+		}	
+}
+	#footer {
+		width: 20%;
+		height: 20%;
+		margin: 0 auto;
+		position: inherit;
+	}
+
+
+
+
+
+
