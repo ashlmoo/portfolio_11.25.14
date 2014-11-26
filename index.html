@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="description" content="ui • developer • javascript • html 5 • css 3" />
+<meta name="keywords" content="portfolio, Ashley Sue Moore, web development" />
+<meta name="author" content="Ashley Sue Moore" />
+<meta http-equiv="content-type" content="text.html;charset=utf-8" />
+<link rel="shortcut icon" href="images/favicon.ico" />
+
+<link rel="stylesheet" href="css/bootstrap.css" />
+<!--<link rel="stylesheet" href="css/site-specific.css" />-->
+<!-- Latest compiled and minified CSS & Optional theme -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="animations.css">
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+<!-- fonts -->
+<link href='http://fonts.googleapis.com/css?family=Dosis:600' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+<!-- Latest compiled and minified JavaScript & jQuery -->
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</script>
+</head>
+<body class="global_index">
+	<a name="index_section_4"></a>
+<script>
+	$(window).scroll(function() {
+		$('#my_face').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+1000) {
+				$(this).addClass("fadeIn");
+			}
+		});
+	});
+
+	$(window).scroll(function() {
+		$('.languages_text').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+540) {
+				$(this).addClass("slideLeft");
+			}
+		});
+	});
+</script>
+<div class="container">
+		<header>	
+				<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+						  <div class="menu">
+						  	<!--<div class="col-sm-2"><img src="images/DSC_6577_V2.jpg" alt="my_face" style="width: 80px; height: 80px;" />
+						  		<p class="header_tagline">Writer of code, words, and song.</p>
+						  	</div>-->
+							   <h3 id="menu_h3" style="border-right: 1px solid grey;"><a href="index.html" target="_top">ashley sue</a></h3>
+							   	<div id="links_container"><img src="images/menu_border.png" style="margin-top:-10px; border-radius: 1px;"/>
+								    	<div id="menu_buttons">
+											<ul>
+												<li><a href="#about_link" target="_blank">about</a></li>
+												<li><a href="#skills_link" target="_blank">skills</a></li>
+												<li><a href="#work_link" target="_blank">work</a></li>
+											</ul>
+										</div>
+										<div id="menu_social">
+										   	<ul>
+										    	<li><a href="//www.facebook.com/ashley.s.moore.5">f</a></li>
+										    	<li><a href="//www.linkedin.com/in/moreashleysue">in</a></li>
+										    	<li><a href="//twitter.com/moreashleysue">t</a></li>
+										    </ul>
+										</div>
+									</div>
+						  </div>
+						  <!--<div class="social_media">
+						  		<ul>
+						  			<li><a href="//www.facebook.com/ashley.s.moore.5"></a>f</li>
+						  			<li><a href="//www.linkedin.com/in/moreashleysue"></a>in</li>
+						  			<li><a href="//twitter.com/moreashleysue"></a>t</li>
+						  		</ul>
+						  </div>-->
+				</nav>
+		</header>
+		
+		<div class="landing_intro">
+			<h1 class="text-center">Hello, I’m Ashley Sue Moore.</h1>
+			<p class="tagline" class="text-center">
+				Aspiring Front-End Developer, Designer, and student of the arts living in San Jose, California
+			</p>
+			<span id="arrow" class="tossing" class="glyphicon glyphicon-chevron-down" style="margin-right: 20px;"></span>
+			<div id="my_face"><img class="img-circle" src="images/DSC_6577_V2.jpg" alt="Generic placeholder image" style="width: 100px; height: 100px; border: 2px solid #707070;"><p class="text-center" style="color: #ffffff; text-shadow: none;">nice to meet you. thanks for stopping by.</p>
+			</div>
+		</div>
+		
+		<div class="index_section_1"><!-- .index_section_1 & summary_section 10/6/14 -->
+			<div class="row" style="height:500px;">
+					<div class="summary_section">
+						<div class="summary_header"><h1>Summary</h1></div>
+						<p class="summary_p">
+							ui • developer • javascript • html 5 • css 3 
+						</p>
+					</div>
+			</div>
+		</div>
+		<div id="skills_link" style="width: 100px; height:100px;"></div>
+		<div class="index_section_2"><!--.index_section_2 & skills graphic and summary 10/6/14 -->
+			<div class="row" class="skills_inner" style="height:500px;">
+				<div class="col-md-6">
+						<div class="skills_blurb">
+						<p>
+						Since the beginning of 2013 I have been immersing myself in programming learning everything I can through books, tutorials, meetups, and recently participating in a coding bootcamp school. I’ve been researching solutions to complex questions, being inspired by the work other developers are doing to innovate, all the while developing these skills and interests in my personal projects and websites for friends. I have also been involved coordinating a JavaScript study group with <a href="//www.meetup.com/Women-Who-Code-Silicon-Valley/members/97800212/"><i>Women Who Code</i></a>. I strive for a little uniqueness in everything I do, which is a hard thing to accomplish.
+						<br>
+						<br>
+						If you would like to see more of my projects, please see my <a href="//github.com/ashlmoo">github</a> account.  
+						</p></div>
+				</div>	
+					<div class="skills" class="col-md-6" id="skills_link">
+							<div class="skills_header"><h1>Skills...</h1></div>
+							<div class="fed_img"><p class="fed_text"><strong>Front-End</strong></p>
+								<img style="border-radius: 5px;" src="images/skills_bw_fed.png" alt="Skills Graphic">
+								<p class="languages_text">HTML5, CSS3, Bootstrap, Javascript, jQuery</p>
+							</div>
+							<br>
+							<div class="bed_img"><p class="bed_text"><strong>Web Design</strong></p>
+									<img style="border-radius: 5px;" src="images/skills_bw_bed.png" alt="Skills Graphic">
+									<p class="languages_text">Adobe Photoshop, Dreamweaver, Wordpress, Responsive Design</p>
+							</div>
+							<br>
+							<div class="design_img"><p class="design_text"><strong>Other Languages</strong></p>
+									<img style="border-radius: 5px;" src="images/skills_bw_design.png" alt="Skills Graphic">
+									<p class="languages_text">PHP / MySql, XML, Ajax, JSON</p>
+							</div>
+					</div>
+				</div>
+		</div>	
+		<div id="work_link" style="width: 200px; height: 70px;"></div>	
+			<div class="index_section_3"><!-- .index_section_3 & work_section a.k.a portfolio circles 10/6/14 -->
+				<div class="row" style="height:500px;">
+					<div class="work_section">
+						<div class="col-xs-12 col-md-8" id="portfolio_circles">
+								
+							<div class="holder">
+								<div id="bunny_box">
+									<div class="bunny_giggle"><img id="target" src="http://i.imgur.com/Cfh6OLl.png" title="Hosted by imgur.com"/></div>
+											
+								<form>
+									<p>Make Bunny giggle...<input id="button" type="button" value="poke here"></input></p>
+								</form>
+
+								</div>
+							</div>				
+						
+							<div id="bunny_content">
+								<article>For this project, I wanted to include some animation to round out my final project I completed for the Front-End Development class I took at Hackbright Acadamy. Coming soon, along with other finished freelance projects, there will some functionality to enable the user to tell Bunny a joke.
+								</article>
+							</div>
+						</div>
+
+								<div id="campbell_quote">
+									<p class="quote_tagline" class="text-center"><i>You must give up the life you planned in order to have the life that is waiting for you.</i></p>
+										<hr>
+									<p class="joe_campbell" class="text-center">Joseph Campbell</p>
+								</div>
+					</div>
+				</div>
+			</div><!--end of index_section_3 -->
+		
+			<div class="index_section_4"><!-- .index_section_4 & about_section 10/6/14 -->
+				<div class="row" style="height:530px;" id="about_link">	
+					<div class="col-lg-12" class="about_section">
+						<div class="col-md-6" id="about_content">
+							<div class="about_header">
+								<h1>About me...</h1>
+							</div>	
+								<article class="pull-left" id="about_blurb">
+								Born in Texas, raised in California, and currently living in the Bay Area.
+								<br>
+								<br>
+								When I was growing up I imagined myself as a singer, a songwriter, and an actress. I’ve pursued these loves in many forms throughout this journey of mine.
+								<br>
+								<br>
+								when I am not working I have fun doing creative things, drinking coffee, spending time with my fiance, going camping, singing in my car, cooking, Netflix, and being a Giant’s fan.		
+								<br>
+								<br>
+								....I’m currently available for full-time work in the Bay Area and freelance web design projects. Feel free to get in touch if you would like to work with me.
+								</article>
+						</div>
+							<div id="my_face_2">
+
+								<img class="img-circle" src="images/me.png" style="width: 300px; height: 300px; margin-left: 75px; border: 2px solid #707070;">
+
+							</div>
+					</div><!-- end of about.section -->
+				</div><!-- end of .row -->	
+			</div><!-- .index_section_4 -->
+				
+				<div class="index_section_5"><!-- .index_section_5 & contact_section 10/6/14 -->
+					<div class="col-md-6" id="footer">
+						<p style="font-size: 8px;">Ashley Sue Moore &copy 2014</p>
+					</div>
+				</div><!-- end index_section_5 -->
+	</div><!-- end of .container -->
+</body>
+</html>
